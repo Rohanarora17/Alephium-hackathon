@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="height=device-height,width=device-width, initial-scale=1.0,minimum-scale=1" />
+    <title> | Alephium Dashboard</title>
+    <!-- HTML Meta Tags -->
+    <title>Alph.Swap | Alephium Dashboard</title>
+    <meta name="description" content="DeFi Dashboard on Alephium | Alph.Swap | Track your portfolio performance and make onchain discoveries">
+    <meta property="og:url" content="https://Alph.Swap">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alph.Swap | Alephium Dashboard">
+    <meta property="og:description" content="DeFi Dashboard on Alephium | Alph.Swap | Track your portfolio performance and make onchain discoveries">
+    <meta property="og:image" content="https://Alph.Swap/logo-bg.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="Alph.Swap">
+    <meta property="twitter:url" content="https://Alph.Swap">
+    <meta name="twitter:title" content="Alph.Swap | Alephium Dashboard">
+    <meta name="twitter:description" content="DeFi Dashboard on Alephium | Alph.Swap | Track your portfolio performance and make onchain discoveries">
+    <meta name="twitter:image" content="https://Alph.Swap/logo-bg.svg">
+    <script defer data-domain="Alph.Swap" src="https://plausible.Alph.Swap/js/script.js"></script>
+    <script>
+      if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </head>
+  <body class="dark:bg-calypso-950 dark:text-calypso-300">
+    <!-- <body class="bg-gradient-to-r from-calypso-900 from-50% to-calypso-950 to-50% dark:text-calypso-300"> -->
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
