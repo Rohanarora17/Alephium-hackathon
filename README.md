@@ -18,6 +18,32 @@ A Stable Swap DEX on Alephium optimized for low-slippage, high-efficiency tradin
 
 ## What does UI/UX looks like ?
 
+![homepage](public/photo1.png)
+![swap](public/photo2.png)
 
-## How to run locally
+## How to Run Locally
 
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/rohanarora17/alephium-hackathon.git
+   cd alephium-hackathon
+
+   ```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Set up environment variables:**
+
+   - Rename env.example to .env.
+   - Configure any necessary variables in the .env file.
+
+4. **Start the development server:**
+
+```bash
+npm run dev
+```
